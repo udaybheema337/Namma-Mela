@@ -1,3 +1,8 @@
+<img width="720" height="1600" alt="5 int" src="https://github.com/user-attachments/assets/1cbfc297-b53a-448b-8a88-a50f17bb5c66" />
+<img width="1080" height="2400" alt="4 int" src="https://github.com/user-attachments/assets/b6c2c18d-0fd7-4bae-bbb6-91b2c9fc0b31" />
+<img width="1080" height="2400" alt="3 int" src="https://github.com/user-attachments/assets/a31c230a-c2bc-4522-8445-e2a6d9554a18" />
+<img width="720" height="1600" alt="2 int" src="https://github.com/user-attachments/assets/b8cdee7e-e19d-44e3-80d0-78b18788ac47" />
+<img width="720" height="1600" alt="1 int" src="https://github.com/user-attachments/assets/a2706a50-4484-435e-94fd-54576a478b16" />
 1. Executive Summary
 Namma-Mela is a comprehensive, Android-based digital box-office and community engagement platform. It was developed to streamline the process of browsing and booking theatrical events while fostering a sense of community among attendees. Unlike standard booking apps, it bridges the gap between event organizers and audiences by integrating a real-time social layer alongside standard ticketing and administrative features.
 
