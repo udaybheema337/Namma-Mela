@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <!-- Play Summary Header -->
+    <LinearLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#1E1E1E"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvBookingPlayTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading Play..."
+            android:textColor="#FFD700"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvBookingPlayTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--"
+            android:textColor="#AAAAAA"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvStage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutHeader"
+        android:text="STAGE / ತೆರೆ"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="#B00020"
+        android:padding="4dp"
+        android:layout_marginBottom="24dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewSeats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvStage"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/layoutLegend"/>
+
+    <!-- Legend Section -->
+    <LinearLayout
+        android:id="@+id/layoutLegend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_above="@id/btnBookInfo"
+        android:layout_marginBottom="16dp">
+
+        <View
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:background="#FFD54F"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Available"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="24dp"
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:background="#B00020"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Booked"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnBookInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Select a seat to see details"
+        android:textAlignment="center"
+        android:textColor="#FFD700"
+        android:padding="12dp"
+        android:background="#222222"
+        android:textSize="14sp"/>
+
+</RelativeLayout>

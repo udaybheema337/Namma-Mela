@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewComments"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etAuthorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"
+        android:textColorHint="#888888"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFD700"/>
+
+    <EditText
+        android:id="@+id/etCommentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Leave applause..."
+        android:textColorHint="#888888"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFD700"/>
+
+    <Button
+        android:id="@+id/btnPostComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST APPLAUSE"
+        android:backgroundTint="#B00020"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

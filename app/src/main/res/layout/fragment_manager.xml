@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manager Controls"
+            android:textColor="#FFD700"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Play Info Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Details"
+            android:textColor="#AAAAAA"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etPlayTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Play Title"
+            android:textColorHint="#444444"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFD700"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Duration"
+            android:textColorHint="#444444"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFD700"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etPosterUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Poster Image URL"
+            android:textColorHint="#444444"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFD700"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Cast Info Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Star Cast Details"
+            android:textColor="#AAAAAA"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etLeadActor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lead Actor Name"
+            android:textColorHint="#444444"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFD700"
+            android:layout_marginBottom="8dp"/>
+        <EditText
+            android:id="@+id/etLeadActorPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lead Actor Photo URL"
+            android:textColorHint="#444444"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFD700"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etComedian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Comedian Name"
+            android:textColorHint="#444444"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFD700"
+            android:layout_marginBottom="8dp"/>
+        <EditText
+            android:id="@+id/etComedianPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Comedian Photo URL"
+            android:textColorHint="#444444"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFD700"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etSinger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Singer Name"
+            android:textColorHint="#444444"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFD700"
+            android:layout_marginBottom="8dp"/>
+        <EditText
+            android:id="@+id/etSingerPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Singer Photo URL"
+            android:textColorHint="#444444"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFD700"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:id="@+id/btnUpdatePlay"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="PUBLISH TO APP"
+            android:backgroundTint="#B00020"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</ScrollView>

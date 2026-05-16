@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manager Controls"
+        android:textColor="#FFD700"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/etPlayTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Play Title"
+        android:textColorHint="#888888"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFD700"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Duration (e.g., 120 mins)"
+        android:textColorHint="#888888"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFD700"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etPosterUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Poster Image URL"
+        android:textColorHint="#888888"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFD700"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnUpdatePlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE TONIGHT'S PLAY"
+        android:backgroundTint="#B00020"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
